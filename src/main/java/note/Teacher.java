@@ -9,5 +9,4 @@ import lombok.Setter;
 @Setter
 public class Teacher extends User{
     private String speciality;
-
 }
