@@ -14,5 +14,4 @@ public class User {
     private LocalDate BirthDate;
     private String email;
     private String phoneNumber;
-
 }

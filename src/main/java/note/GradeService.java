@@ -3,7 +3,7 @@ import java.time.Instant;
 import java.util.Comparator;
 public class GradeService {
     public double getExamGrade(Exam exam, Student student, Instant t) {
-        Grade grade = student.getGradeFromExam(exam);
+        Grade grade = student.getGradeForExam(exam);
         if (grade == null) {
             return 0.0;
         }
